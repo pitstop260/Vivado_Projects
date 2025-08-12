@@ -1,0 +1,28 @@
+# Vivado files
+.Xil/
+*.xpr
+*.xpr.lock
+*.cache/
+*.hw/
+*.runs/
+*.data/
+*.db/
+
+# Log and journal files
+*.log
+*.jou
+
+# IP user files
+ip_user_files/
+
+# Simulation files
+xsim.dir/
+xsim.bat
+xsim.rc
+xsim.dbg
+xsim.log
+xsim_cfg.tcl
+
+# Vitis related files (if applicable)
+.vitis_ide/
+*.vitis.sh
