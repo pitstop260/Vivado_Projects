@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../EXP3/HA/HA.srcs/sources_1/new/HA.vhd" \
+"../../../../MULTIPLIER_TWO.srcs/sources_1/new/MULTIPLIER_TWO.vhd" \
+
+# Do not sort compile order
+nosort
