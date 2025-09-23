@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../EXP6/FA_CASE/FA_CASE.srcs/sources_1/new/FA_CASE.vhd" \
+"../../../../../EXP9/PARALLEL_ADDER/PARALLEL_ADDER.srcs/sources_1/new/PARALLEL_ADDER.vhd" \
+"../../../../BCD_ADDER.srcs/sources_1/new/BCD_ADDER.vhd" \
+
+# Do not sort compile order
+nosort
