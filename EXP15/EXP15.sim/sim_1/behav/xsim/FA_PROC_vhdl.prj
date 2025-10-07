@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../EXP15.srcs/sources_1/new/CI_AND.vhd" \
+"../../../../EXP15.srcs/sources_1/new/CI_OR.vhd" \
+"../../../../EXP15.srcs/sources_1/new/CI_XOR.vhd" \
+"../../../../EXP15.srcs/sources_1/new/FA_PROC.vhd" \
+
+# Do not sort compile order
+nosort
